@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.game__content{
+    width: 80%;
+    height: 500px;
+    border: 15px solid rgb(11, 146, 11);
+    background: linear-gradient(rgba(0, 119, 255, 0.877), #f0f8ff);
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.clouds{
+    width: 650px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    animation: clouds 10s infinite linear;
+    z-index: 1;
+}
+
+.pipe{
+    position: absolute;
+    width: 80px;
+    bottom: 0;
+    right: -70px;
+    animation: pipe 1.5s infinite linear;
+    z-index: 2;
+}
+
+.dog{
+    width: 250px;
+    position: absolute;
+    bottom: -100px;
+    z-index: 3;
+}
+
+.jump{
+        animation: jump 500ms infinite ease-out;
+}
+
+.res{
+    position: absolute;
+    inset: 50%;
+    font-size: 2rem;
+    display: inline;
+    color: darkred;
+    z-index: 4;
+}
+
+.div-btn{
+    display: flex;
+    justify-content: center; /* horizontal */
+    align-items: center;     /* vertical */
+    padding-top: 20px;
+    
+}
+
+.div-btn button{
+    padding: 12px 24px;
+    border-radius: 30px;
+    color: blueviolet;
+}
+
+/* ANIMAÇÃO */
+@keyframes pipe{
+    0%{
+        right: -70px;
+    }
+
+    100%{
+        right: 100%;
+    }
+}
+
+@keyframes jump{
+    0%{
+        bottom: -100px;
+    }
+    60%{
+        bottom: 50px;
+    }
+
+    80%{
+        bottom: 50px;
+    }
+
+    100%{
+        bottom: -100px;
+    }
+}
+
+@keyframes clouds{
+
+    0%{
+        right: -650px;
+    }
+
+    100%{
+        right: 100%;
+    }
+
+}
