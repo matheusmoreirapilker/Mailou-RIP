@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&family=League+Spartan:wght@100..900&family=Luckiest+Guy&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oleo+Script:wght@400;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Orbitron:wght@400..900&family=Playwrite+IT+Moderna:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 *{
     padding: 0;
     margin: 0;
@@ -70,6 +73,46 @@ body{
     color: blueviolet;
 }
 
+.mailoucontent{
+    color: #f0f8ff;
+    font-family: "Montserrat", sans-serif;
+    padding: 5px;
+    text-indent: 5px;
+}
+
+.contentdog > h2{
+    font-size: 30px;
+}
+
+.contentdog > p {
+    font-size: 20px;
+}
+
+.lastwords > p{
+    font-size: 20px;
+}
+.lastwords > h3{
+    font-size:  25px;
+}
+
+.videosdog h4{
+    font-size: 25px;
+}
+
+.videosdog img{
+    width: auto;
+    height: 450px;
+}
+.videosdog .full .fullimg{
+    width: 600px;
+    height: 450px;
+    object-fit: contain;
+   
+    
+    
+
+}
+
 /* ANIMAÇÃO */
 @keyframes pipe{
     0%{
@@ -109,3 +152,4 @@ body{
     }
 
 }
+
