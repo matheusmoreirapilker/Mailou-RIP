@@ -104,12 +104,8 @@ body{
     height: 450px;
 }
 .videosdog .full .fullimg{
-    width: 600px;
+    width: auto;
     height: 450px;
-    object-fit: contain;
-   
-    
-    
 
 }
 
