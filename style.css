@@ -109,7 +109,11 @@ footer{
     text-align: center;
     color: #f0f8ff;
     font-family: "Montserrat", sans-serif;
-   
+  
+}
+
+footer p {
+    text-align: center;
 }
 
 a{
