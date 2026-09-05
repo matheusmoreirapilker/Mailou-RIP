@@ -104,6 +104,20 @@ body{
     height: 450px;
 }
 
+footer{
+    padding-top: 20px;
+    text-align: center;
+    color: #f0f8ff;
+    font-family: "Montserrat", sans-serif;
+   
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #f0f8ff;
+    
+}
 
 /* ANIMAÇÃO */
 @keyframes pipe{
